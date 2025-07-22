@@ -8,7 +8,7 @@ module.exports = {
         jwt_secret: process.env.JWT_SECRET || 'tu_secreto_jwt_super_seguro'
     },
     mysql:{
-        host: process.env.MYSQL_HOST || '3.12.153.245',
+        host: process.env.MYSQL_HOST || '3.148.182.220',
         port: process.env.MYSQL_PORT || 3306,
         user: process.env.MYSQL_USER || 'usuario_prueba',
         password: process.env.MYSQL_PASSWORD || 'admin',
